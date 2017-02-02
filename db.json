@@ -1,0 +1,15 @@
+{
+  "posts": [
+    { "id": 1, "title": "test", "author": "rekrutacja" },
+    { "id": 2, "title": "test2", "author": "rekrutacja" },
+    { "id": 3, "title": "test3", "author": "rekrutacja" }
+  ],
+  "comments": [
+    { "id": 1, "body": "komentarz", "postId": 1 },
+    { "id": 2, "body": "komentarz2", "postId": 1 },
+    { "id": 3, "body": "komentarz3", "postId": 2 },
+    { "id": 4, "body": "komentarz4", "postId": 2 },
+    { "id": 5, "body": "komentarz5", "postId": 3 }
+  ],
+  "profile": { "name": "rekrutacja" }
+}
