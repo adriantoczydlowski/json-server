@@ -1,15 +1,47 @@
 {
-  "posts": [
-    { "id": 1, "title": "test", "author": "rekrutacja" },
-    { "id": 2, "title": "test2", "author": "rekrutacja" },
-    { "id": 3, "title": "test3", "author": "rekrutacja" }
+  "posts": [{
+      "id": 1,
+      "title": "title",
+      "author": "John"
+    },
+    {
+      "id": 2,
+      "title": "title2",
+      "author": "John"
+    },
+    {
+      "id": 3,
+      "title": "title3",
+      "author": "John"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "komentarz", "postId": 1 },
-    { "id": 2, "body": "komentarz2", "postId": 1 },
-    { "id": 3, "body": "komentarz3", "postId": 2 },
-    { "id": 4, "body": "komentarz4", "postId": 2 },
-    { "id": 5, "body": "komentarz5", "postId": 3 }
+  "comments": [{
+      "id": 1,
+      "body": "comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "comment2",
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "body": "comment3",
+      "postId": 2
+    },
+    {
+      "id": 4,
+      "body": "comment4",
+      "postId": 2
+    },
+    {
+      "id": 5,
+      "body": "comment5",
+      "postId": 3
+    }
   ],
-  "profile": { "name": "rekrutacja" }
+  "profile": {
+    "name": "John"
+  }
 }
